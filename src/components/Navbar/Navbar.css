@@ -1,0 +1,31 @@
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #bb1414;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-link {
+    padding: 10px;
+    color: #f8f3f3;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 27px;
+  }
+  
+  .nav-link:last-child {
+    margin-right: 0; 
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
